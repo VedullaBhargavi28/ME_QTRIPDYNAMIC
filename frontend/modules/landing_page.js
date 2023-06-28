@@ -3,8 +3,8 @@ import config from "../conf/index.js";
 async function init() {
   //Fetches list of all cities along with their images and description
   let cities = await fetchCities();
-  console.log("From init()");
-  console.log(config.backendEndpoint);
+  //console.log("From init()");
+  //console.log(config.backendEndpoint);
   //console.log(cities);
 
   //Updates the DOM with the cities
